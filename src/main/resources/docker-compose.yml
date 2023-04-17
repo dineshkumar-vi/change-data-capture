@@ -1,0 +1,15 @@
+version: '3'
+services:
+  odb:
+    image: oracle/database:21.3.0-ee
+    ports:
+      - "1521:1521"
+      - "5500:5500"
+    volumes:
+      - ./odata:/opt/oracle/oradata
+    environment:
+      - ORACLE_SID=sid #system
+      - ORACLE_PWD=password  #Test@123456
+      - ENABLE_TCPS=true
+      - ENABLE_ARCHIVELOG=true
+    tty: true
