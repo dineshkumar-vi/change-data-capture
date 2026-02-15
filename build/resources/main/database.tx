@@ -1,0 +1,7 @@
+docker run --name 'test-cdc' -p 1521:1521 -p 5500:5500 -p 2484:2484 -e ORACLE_SID=sid -e ORACLE_PWD=Test@123456 -e ENABLE_ARCHIVELOG=true -e ENABLE_TCPS=true -d oracle/database:21.3.0-ee
+
+// Status : Failure -Test failed: IO Error:
+// The Network Adapter could not establish the connection (CONNECTION_ID=N+32n0lyTsix9ai5RN3eBA==)
+
+
+Status : Failure -Test failed: IO Error: The Network Adapter could not establish the connection (CONNECTION_ID=3l49+r+cT7Wr4YgCEBdtVQ==)

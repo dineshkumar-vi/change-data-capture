@@ -30,6 +30,8 @@ dependencies {
 	implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
 	// https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11
 	implementation group: 'com.oracle.database.jdbc', name: 'ojdbc11', version: '21.9.0.0'
+	// https://mvnrepository.com/artifact/org.postgresql/postgresql
+	implementation group: 'org.postgresql', name: 'postgresql', version: '42.6.0'
 // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
 	implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
 
